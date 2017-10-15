@@ -1,0 +1,7 @@
+
+@mixin nav-divider($color: #292999) {
+    height: $navbar-height + $navbar-inverse-border-bottom-width;
+    overflow: hidden;
+    border-right: 1px solid $color;
+    border-left: 1px solid $color;
+}

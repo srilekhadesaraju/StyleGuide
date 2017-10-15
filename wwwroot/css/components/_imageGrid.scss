@@ -1,0 +1,49 @@
+﻿
+.widgetImageHeading {
+    @extend .panel-default;
+    @extend .panel-heading;
+    height: 150px;
+    width: 200px;
+    padding: 0px !important;
+    margin: 0px !important;
+    position: relative;
+}
+
+.widgetImageBody {
+    @extend .panel-default;
+    @extend .panel-body;
+    text-align: center;
+    background-color: $disabled-content;
+    height: 150px;
+    width: 200px;
+}
+
+.widgetImagePanel {
+    @extend .panel;
+    @extend .panel-default;
+    padding: 0px;
+    margin-left:30px;
+    border-radius: 5.5em;
+    border-color: red;
+    height: 300px;
+    width: 200px;
+}
+
+.widgetImage {
+    height: 150px;
+    width: 200px;
+    padding: 0px;
+    margin: 0px !important;
+    vertical-align: initial;
+    box-sizing: initial;
+}
+
+#imgLbl {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    color: white;
+    height: 20px;
+    width: 50px;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+﻿body {
+  padding-top: 50px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important; }
+
+.body-content {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+input,
+select,
+textarea {
+  max-width: 280px; }
+
+.container {
+  padding-left: 0px;
+  margin-left: 0px; }
+

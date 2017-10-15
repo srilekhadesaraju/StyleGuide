@@ -1,0 +1,29 @@
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - StyleGuide_Srilekha</title>
+
+    <environment names="Development">   
+        <link href="~/css/site.css" rel="stylesheet" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+        <link href="~/css/bootstrap/bootstrap.css" rel="stylesheet" />
+    </environment>
+    
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/_Header.cshtml")
+    <div class="container body-content main">
+        @RenderBody()
+    </div>
+   
+    @Html.Partial("~/Views/Shared/_Footer.cshtml")
+   
+   
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

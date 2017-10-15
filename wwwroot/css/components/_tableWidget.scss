@@ -1,0 +1,14 @@
+﻿.widgetTable {
+    @extend .table;
+    > tbody,
+    > tfoot {
+        > tr {
+            
+                border-left: 1px solid $table-border-color;
+                border-right: 1px solid $table-border-color;
+                border-bottom: 1px solid $table-border-color;
+                background-color:white;
+            }
+        }
+    }
+

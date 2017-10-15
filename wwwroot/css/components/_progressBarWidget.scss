@@ -1,0 +1,34 @@
+﻿.quarterProgress, .halfProgress, .threeFourthProgress {
+    position: absolute;
+    margin-top: -5px;
+    height: 20px;
+    width: 4px;
+}
+
+.quarterProgress {
+    left: 25%;
+    }
+
+.halfProgress {
+    left: 50%;
+}
+
+.threeFourthProgress {
+    left: 75%;    
+}
+
+.primaryColor {
+    background-color: white;
+}
+
+
+.customProgress {
+    @extend .progress;
+    background-color:white !important;
+    height:10px !important;
+}
+
+.customProgressBar {
+    @extend .progress-bar;
+    background-color: $navbar-inverse-bg !important;
+}

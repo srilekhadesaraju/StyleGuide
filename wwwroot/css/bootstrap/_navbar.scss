@@ -1,0 +1,108 @@
+﻿.navbar-brand {
+    color: $navbar-inverse-brand-color;
+    font-weight:bold;
+
+    &:hover,
+    &:focus {
+        color: $navbar-inverse-brand-hover-color;
+        background-color: $navbar-inverse-brand-hover-bg;
+    }
+}
+
+.navbar {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.navbar-header{
+margin-left:20px;
+}
+.navbar-inverse {
+    box-shadow: 0px 5px 5px #15156b;
+}
+
+.navbar-nav {
+    > li > a {
+
+        &:hover,
+        &:focus {
+            border-bottom: solid;
+            border-bottom-width: $navbar-inverse-border-bottom-width;
+            border-bottom-color: white;
+        }
+    }
+}
+
+
+.container > .navbar > .navbar-collapse {
+    background-color: $navbar-inverse-bg;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+
+    .navbar-nav > li > a {
+        font-weight: 100;
+        color: white;
+
+        &:hover {
+            background-color: #014382;
+            border-bottom: none;
+        }
+    }
+}
+
+.sidebar-nav > .navbar > .navbar-collapse {
+    padding: 0;
+    background-color: white;
+    padding-left: 0px;
+    margin-left: 0px;
+    width: auto;
+
+    .navbar-nav > li > a {
+        font-weight: 100;
+        color: black;
+
+        &:hover {
+            background-color: $navbar-inverse-bg;
+            border-bottom: none;
+            color: white;
+        }
+    }
+}
+
+.subNav > li > a {
+    font-weight: 100;
+    color: #808080;
+
+    &:hover {
+        border-bottom: none;
+        font-weight: bold;
+        color: $navbar-inverse-bg;
+        text-decoration: none;
+    }
+}
+
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+
+.sidebar-nav .navbar li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+
+    .activeMenu {
+        border-bottom: solid;
+        border-bottom-width: $navbar-inverse-border-bottom-width;
+        border-bottom-color: white;
+    } 
+
+

@@ -1,0 +1,11 @@
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\bin\Debug\netcoreapp1.1\StyleGuide_Srilekha.deps.json
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\bin\Debug\netcoreapp1.1\StyleGuide_Srilekha.runtimeconfig.json
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\bin\Debug\netcoreapp1.1\StyleGuide_Srilekha.runtimeconfig.dev.json
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\bin\Debug\netcoreapp1.1\StyleGuide_Srilekha.dll
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\bin\Debug\netcoreapp1.1\StyleGuide_Srilekha.pdb
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\obj\Debug\netcoreapp1.1\StyleGuide_Srilekha.csprojResolveAssemblyReference.cache
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\obj\Debug\netcoreapp1.1\StyleGuide_Srilekha.csproj.CoreCompileInputs.cache
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\obj\Debug\netcoreapp1.1\StyleGuide_Srilekha.AssemblyInfoInputs.cache
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\obj\Debug\netcoreapp1.1\StyleGuide_Srilekha.AssemblyInfo.cs
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\obj\Debug\netcoreapp1.1\StyleGuide_Srilekha.dll
+C:\Users\Srilekha\source\repos\StyleGuide_Srilekha\StyleGuide_Srilekha\obj\Debug\netcoreapp1.1\StyleGuide_Srilekha.pdb

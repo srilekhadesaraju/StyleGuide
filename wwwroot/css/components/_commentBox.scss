@@ -1,0 +1,23 @@
+﻿.comment-box .tip-left {
+    border: 1px solid $disabled-content;
+    padding: 10px 15px;
+    height: 100px;
+    width: 350px;
+    background-color: $content-bg;
+    border-bottom: 1px solid $disabled-content;
+    position: relative;
+}
+
+.comment-box .tip-left:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: $content-bg;
+    border: 1px solid $disabled-content;
+    border-width: 1px 0 0 1px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+    left: -8px;
+}

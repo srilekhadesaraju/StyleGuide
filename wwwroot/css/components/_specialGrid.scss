@@ -1,0 +1,14 @@
+﻿
+.widgetPanelHeading {
+    @extend .panel-default;
+    @extend .panel-heading;
+    background-color: $navbar-inverse-bg !important;
+    color: white !important;
+    text-align: center;
+}
+
+.widgetPanelBody {
+    @extend .panel-default;
+    @extend .panel-body; 
+    text-align: center;
+}
